@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    font-size: 0.9rem;
+    background-color: #300a24;
+
+}
+
+.tb {
+    color: #fff;
+}
+
+.content-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.form-form > h2 {
+    color: #300a24;
+    font-weight: bolder;
+}
+
+.form-form>label {
+    font-size: 1rem;
+    margin: 4px 0 2px;
+}
+
+.form-form>button,
+.form-form>input,
+#content {
+    border-radius: 10px;
+    border: none;
+}
+
+.form-form>input,
+#content {
+    height: 27px;
+    font-size: 1rem;
+    background-color: #3d3d3d27;
+    text-indent: 4px;
+}
+
+#content {
+    height: 50px;
+}
+
+
+.form-form>button {
+    background-color: #300a24;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 32px;
+    margin-top: 20px;
+}
+
+
+.content-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+table>caption {
+    margin-bottom: 0;
+}
+
+caption,
+th,
+td {
+    border: 1.2px dashed;
+    padding: 3px 2px;
+    text-align: left;
+    text-indent: 2px;
+}
+
+table>caption {
+    text-align: center;
+}
